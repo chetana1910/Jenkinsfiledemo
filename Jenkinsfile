@@ -50,7 +50,7 @@ pipeline{
 		      steps {
 			      script {
 				      
-		      deploy adapters: [tomcat9(credentialsId: 'tomcat_cred', path: '', url: 'http://54.196.175.55/:8090/manager')], contextPath: 'pipeline', onFailure: false, war: '**/*.war'
+		      deploy adapters: [tomcat9(credentialsId: 'tomcat_cred', path: '', url: 'http://54.196.175.55:8090/manager')], contextPath: 'pipeline', onFailure: false, war: '**/*.war'
 			      }
 		      }
 		      
