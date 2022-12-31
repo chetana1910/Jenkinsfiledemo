@@ -10,7 +10,7 @@ pipeline{
 	    
                steps{
 		 echo 'cloning'
-                 git 'https://github.com/chetana1910/java-rest-api-calculator.git'
+                 git 'https://github.com/chetana1910/hello-world.git'
               }
           }
           stage('Compile'){
