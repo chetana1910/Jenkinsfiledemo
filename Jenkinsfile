@@ -10,7 +10,7 @@ pipeline{
 	    
                steps{
 		 echo 'cloning'
-                 git 'https://github.com/chetana1910/DevOpsClassCodes-sonal.git'
+                 git 'https://github.com/chetana1910/javaproject.git'
               }
           }
           stage('Compile'){
